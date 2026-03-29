@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calcuter simple</title>
+    <link rel="stylesheet" href="simp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>simple calcuter</h1>
+      <div class="box">
+        <input
+          type="number"
+          id="first"
+          placeholder="Enter your first numbers"
+        />
+        <br />
+        <input
+          type="number"
+          id="second"
+          placeholder="Enter your second numbers"
+        />
+        <br />
+
+        <button onclick="add()">ADD</button>
+        <button onclick="multi()">multi</button>
+        <button onclick="divid()">divid</button>
+        <button onclick="subtr()">subtr</button>
+      </div>
+      <p>totals:<span id="result"></span></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
